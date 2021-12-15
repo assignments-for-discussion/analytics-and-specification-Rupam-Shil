@@ -14,8 +14,9 @@
     },
     "rules": {
         "linebreak-style": ["off"],
-        "complexity": ["error", {"max": 3}],
+        // "complexity": ["error", {"max": 4}],
         "require-jsdoc": ["off"],
-        "new-cap": ["off"]
+        "new-cap": ["off"],
+        "max-len":100
     }
 }
