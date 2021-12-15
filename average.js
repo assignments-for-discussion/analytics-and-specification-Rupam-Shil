@@ -1,13 +1,6 @@
 
 function average(numbers) {
-  let realLength = numbers.length;
-  return (
-    numbers.reduce((p, c) => {
-      if (c) return p + c;
-      realLength--;
-      return p;
-    }, 0) / realLength
-  );
+  return numbers.reduce((p, c)=> p + c, 0) / numbers.length;
 }
 
 module.exports = {average};
